@@ -2,7 +2,6 @@ import json
 import os
 import time
 from urllib import request
-import pandas as pd
 
 def locationinput():
 	with open('history.city.list.json') as f:
