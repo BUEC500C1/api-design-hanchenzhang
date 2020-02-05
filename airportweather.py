@@ -23,7 +23,7 @@ def locationinput():
 
 def getweather(location):
 	openweather = "http://api.openweathermap.org/data/2.5/weather?id="
-	accountID = "&APPID=399fb5d0a7974b62bcc7a33a2de4d82f&units=imperial"
+	accountID = "&APPID=[Your API KEY]&units=imperial"#substitue "[Your API KEY]" with the key you applied
 	Loc = str(location)
 	#print(Loc)
 	url = openweather + Loc + accountID
