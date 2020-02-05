@@ -17,4 +17,4 @@ Go to https://openweathermap.org/city, sign up and get an API key, and paste the
 
 Run this file on the command window.
 
-![api result] (./api%20result.png)
+![](./api%20result.png)
