@@ -78,7 +78,7 @@ def getweather(location):
 
 def weather_test(city_name):
 	openweather = "http://api.openweathermap.org/data/2.5/weather?q="
-	accountID = "&APPID=399fb5d0a7974b62bcc7a33a2de4d82f&units=imperial"
+	accountID = "&APPID=[Your API KEY]&units=imperial"
 	url = openweather + city_name + accountID
 
 	try:
